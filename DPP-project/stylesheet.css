@@ -1,0 +1,88 @@
+body { 
+    
+    background-image:url(exercise.jpg);
+    background-position:right;
+   
+    
+    }
+
+.main{
+margin-right: auto;
+margin-left: auto;
+width: 600px; 
+text-align: center;
+border: 5px solid black; 
+border-radius: 15px;
+
+}
+
+
+h1 {
+    font-size: 50px;
+    font-family: 'Aclonica', sans-serif;
+    text-align: center;
+    text-shadow: 1px 10px 3px #606066;
+}
+
+h2{
+     font-size: 30px;
+    text-align: center;
+    text-shadow: 5px 5px 3px #666666;
+}
+
+#Calculation{
+    text-align: left;
+    padding-left:50px;
+   
+}
+
+#info1{
+    color:blackx;
+    
+    font-family:'Eczar', serif;
+    text-decoration-style:solid;
+    font-size: 25px;
+  text-align: center;
+}
+
+#BMIResult{
+    text-align: center;
+    color: red;
+    font-family:fantasy;
+    font-size: 22px;
+    font-style: oblique;
+}
+
+#buttons{
+    
+    text-align: center;
+}
+
+.submitButton {
+    color: white; 
+    font-size: 1.5em;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgba(139, 10, 0, 0.8);	
+    border: 3px;
+    border-radius: 8px;
+    margin-top:20px;
+    margin-right: 20px;
+}
+
+.submitButton:hover {background-color: chocolate;}
+
+
+.UnitButton {
+    color: whitesmoke; 
+    font-size: 0.9em;
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color:rgba(139, 10, 0, 0.8);	
+    border: 3px;
+    border-radius: 2px;
+    margin-bottom:20px;
+    margin-left: 10px;
+}
+
+.UnitButton:hover {background-color:chocolate;}

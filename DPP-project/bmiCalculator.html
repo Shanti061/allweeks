@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> Body Mass Index Calculator</title>
+    <link rel="stylesheet" href="../DPP-project/stylesheet.css">
+   <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Eczar:800" rel="stylesheet">
+</head>
+
+    <body>
+        
+    <div class= "main">
+        <h1> BODY INDEX MASS </h1> 
+         <h2>CALCULATOR</h2>
+       
+    <p>
+        <div id="text1"></div>   
+        
+        <b><p id = "info"> </p> 
+        <p>
+            
+        <div id="Calculation">
+        
+        <form>
+        <input type="radio" id ="childRadio" name="gender" value="child"  > Child
+        <input type="radio" id ="adultRadio" name="gender" value="adult"> Adult <br>
+        
+        <p><a href="#" id="changeUnit" type="button" class="UnitButton">METRIC / IMPERIAL </a> </p>
+        <br />
+       
+        
+        Weight: <input type = "weight" id= "userWeight" size ="5"/> <span id="userWeight1" value ="2"> </span> 
+          <br /> <br/>
+        Height: <input type="height" id="userHeight"  size="5" />  <span id="userHeight1" value ="1"> </span>
+          
+        <br /> <br/>
+        BMI Result: <input type = "weight" id= "result" size= "5"/> kg/m2 </b> 
+        
+       
+        <div id="BMIResult"> </div>
+        <br /> 
+       
+            
+        <b> <p id= "info1"> </p></b> 
+        
+        <div id="buttons">
+            <a href="#" id="Calculate" type="button" class="submitButton corners hide">CALCULATE BMI</a>
+
+            <a href="#" id="Reset" type="button" value= "reset" class="submitButton corners hide">RESET</a>
+        </div>                
+        <br />
+        
+        </div>
+            
+        <br><br>
+        </form>
+      
+    </p>  
+
+    </div>
+        
+    
+    <script src="BMIcalculator.js"> </script>
+    </body>
+
+
+
+</html>
