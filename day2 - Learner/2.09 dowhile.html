@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Javascript do...while loop from 1 to 10</title>
+
+
+</head>
+<body>
+<h1>Javascript program flow</h1>
+<h2>Do...While loop from 1 to 10</h2>
+<input type="button"  value="Display 1 to 10" onclick="lab67()"/>
+<span id="result"></span>
+
+
+<script>
+	
+var input1 = document.getElementById("button1");
+input1.addEventListener("click", lab67, false);
+
+function lab67(){
+var i = 1;
+do
+ {
+	
+    
+	document.getElementById("result").innerHTML += i + " ";
+    i++;
+} while (i < 11);
+
+}
+
+lab67();
+
+</script>
+
+
+</body>
+</html>
