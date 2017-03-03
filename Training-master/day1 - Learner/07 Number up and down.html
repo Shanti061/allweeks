@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<p>Enter number below</p>
+<form>
+<input type="number" id="input1"/>
+
+</form>
+<div><button id="button1">Submit</button></div>
+<div id="output1"></div>
+<div id="output2"></div>
+
+<script>
+ 
+var num = document.getElementById("button1");
+    num = addEventListener("click",compareNum, false);
+    
+    function compareNum(){
+        
+        var input1 = parseInt(document.getElementById ("input1").value);
+        
+        document.getElementById("output1").innerHTML = "number greater than the input value is" + " " + (input1 + 1);
+        
+        document.getElementById("output2").innerHTML ="number less than the input value is" + " " + (input1 - 1);
+    }
+      
+</script>
+
+</body>
+</html>

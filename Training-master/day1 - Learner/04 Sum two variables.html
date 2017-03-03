@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<p>Please enter 2 numbers below</p>
+<form>
+<input type="number" id="input1"/>
+<input type="number" id="input2"/>
+</form>
+<div><button id="button1">Sum of the two numbers</button></div>
+<div id="demo"></div>
+
+<script>
+     var sumB= document.getElementById("button1");
+    sumB.addEventListener("click", sum, false);
+    
+    
+    function sum(){
+        
+        var input1= parseInt(document.getElementById("input1").value);
+        var input2= parseInt(document.getElementById("input2").value);
+        
+       
+        document. getElementById("demo").innerHTML =  input1 + input2;
+        
+    }
+</script>
+
+</body>
+</html>
