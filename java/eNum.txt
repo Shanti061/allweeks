@@ -1,0 +1,46 @@
+//ENUMMERATION EXAMPLE
+// DaysOfTheWeek CLASS	
+
+package day4;
+
+/**
+ * Created by student on 16-Feb-17.
+ */
+
+public enum DaysOfTheWeek {
+    //a list of named constants (Value type NOT reference Type)
+    //ENUM can create only certain amount of
+    MONDAY(1), TUESDAY(2), WEDNESDAY(3), THURSDAY(4), FRIDAY(5), SATURDAY(5), SUNDAY(7);
+
+    private int day;
+    DaysOfTheWeek(int d){
+        day = d;
+    }
+    int getDay(){
+        return day;
+    }
+}
+
+--------------DayTest Class--------------------
+
+package day4;
+
+/**
+ * Created by student on 16-Feb-17.
+ */
+public class DayTest {
+
+    public static void main(String[] args){
+        DaysOfTheWeek monday = DaysOfTheWeek.MONDAY;
+
+        System.out.println(monday);
+
+        monday = DaysOfTheWeek.FRIDAY; //monday(reference) is assigned to  DaysOfTheWeek.FRIDAY(object)
+        System.out.println("The day of the week is: " + monday + " and it is the " + monday.getDay() + " of the week.");
+
+        //get all constants object
+        DaysOfTheWeek days[] = DaysOfTheWeek.values();
+        for(DaysOfTheWeek d : days)
+            System.out.println(d);
+    }
+}
