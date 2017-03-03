@@ -1,0 +1,15 @@
+body{
+    padding: 40px;
+    
+    background-color: cornflowerblue;
+    
+   
+}
+
+
+
+h1 { font-family: serif; font-size: 40px; color:antiquewhite ; }
+
+p{text-align: center; color:firebrick ; font-size: 20px;}
+
+.container{ margin: 50px; }
