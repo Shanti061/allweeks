@@ -1,0 +1,105 @@
+
+
+.bg-white {
+    background: peachpuff;
+}
+
+.site-logo a.brand {
+    color: #111;
+   font-size: 30px;
+  font-family: 'Pacifico', cursive;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+
+
+.hero {
+    /*background: url(../img/green.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+    
+    padding: 0 0 0 0;
+    height: 100vh;
+}
+
+.hero h1 {
+    font-size: 50px;
+     font-family:'Shojumaru', cursive;
+    
+    margin: 40px 0 10px;
+    font-weight: 900;
+    color:whitesmoke;
+}
+
+.hero p {
+    font-size: 30px;
+     font-family:'Sirin Stencil', cursive;
+    font-weight: 400;
+    color: #fefefe;
+}
+
+.learn-more-btn {
+    background: rgba(61, 201, 179, 1);
+    padding: 20px 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    -webkit-box-shadow: 0px 3px 0px 0px #309383;
+    -moz-box-shadow: 0px 3px 0px 0px #309383;
+    box-shadow: 0px 3px 0px 0px #309383;
+    margin: 20px 0 0;
+  
+}
+
+/*video.fullscreen { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}*/
+
+video { 
+  position: relative;
+  /*top: 50%;
+  left: 50%;*/
+  min-width: 100% !important;
+  min-height: 100% !important;
+  width: 100% !important;
+  /*height: auto;*/
+  z-index: -100;
+  /*transform: translate(-50%, -50%);*/
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#myHeading{
+    width: 100% !important;
+    position: absolute;
+    top: 0;
+    /*left: 0;*/
+    z-index: 100;
+    margin-top:  300px;
+    padding: 0 !important;
+    
+    
+}
+
+
+
+
+
+
+

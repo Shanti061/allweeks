@@ -1,0 +1,14 @@
+/* This is my own CSS to override the BOOTSTRAP CSS */
+
+
+h3 {
+    color:darkred;
+    font-size: 30px;
+    letter-spacing: 26px;
+    letter-spacing: 2px;
+}
+
+.fa-flag{
+    
+    color: aquamarine;
+}
